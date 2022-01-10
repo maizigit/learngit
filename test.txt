@@ -1,2 +1,2 @@
 Git is a distributed version control system.
-Git 我是版本 01.01
+Git 我是版本 01.02
