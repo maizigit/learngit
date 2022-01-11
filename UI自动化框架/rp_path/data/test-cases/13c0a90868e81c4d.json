@@ -1,0 +1,110 @@
+{
+  "uid" : "13c0a90868e81c4d",
+  "name" : "test_001",
+  "fullName" : "testcase.test_dome.TestCase#test_001",
+  "historyId" : "76457fc7232b122fca2b6c021548cc9b",
+  "time" : {
+    "start" : 1640082620568,
+    "stop" : 1640082625678,
+    "duration" : 5110
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCase",
+    "time" : {
+      "start" : 1640082618523,
+      "stop" : 1640082620566,
+      "duration" : 2043
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2259adb89467776c",
+      "name" : "log",
+      "source" : "2259adb89467776c.txt",
+      "type" : "text/plain",
+      "size" : 3074
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCase::0",
+    "time" : {
+      "start" : 1640082626079,
+      "stop" : 1640082626079,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "利用cookie实现登陆"
+  }, {
+    "name" : "feature",
+    "value" : "测试HiFi签到模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_dome"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-068E438"
+  }, {
+    "name" : "thread",
+    "value" : "8828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_dome"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13c0a90868e81c4d.json",
+  "parameterValues" : [ ]
+}

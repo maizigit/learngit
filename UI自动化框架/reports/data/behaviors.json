@@ -1,0 +1,51 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "测试HiFi签到模块",
+    "children" : [ {
+      "name" : "利用cookie实现登陆",
+      "children" : [ {
+        "name" : "test_001",
+        "uid" : "2bcdb39464d5b29",
+        "parentUid" : "a630981fd7eb54b4c6d2fc9eebbe29d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640084949369,
+          "stop" : 1640084954662,
+          "duration" : 5293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a630981fd7eb54b4c6d2fc9eebbe29d5"
+    }, {
+      "name" : "实现签到",
+      "children" : [ {
+        "name" : "test_002",
+        "uid" : "e0497152d7a8b18",
+        "parentUid" : "5cff2e16146c9d1c76196dca93abd076",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640084954665,
+          "stop" : 1640084955856,
+          "duration" : 1191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5cff2e16146c9d1c76196dca93abd076"
+    } ],
+    "uid" : "ff967604e533b626d5a56a3cfaea2598"
+  } ]
+}

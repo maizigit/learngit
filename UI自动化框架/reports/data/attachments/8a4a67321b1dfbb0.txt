@@ -1,0 +1,20 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57692/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG    urllib3.connectionpool:connectionpool.py:227 Starting new HTTP connection (1): 127.0.0.1:57692
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:57692 "POST /session HTTP/1.1" 200 783
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57692/session/40672c207a5e322f8aa46b3a63a18cd0/window/maximize {}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:57692 "POST /session/40672c207a5e322f8aa46b3a63a18cd0/window/maximize HTTP/1.1" 200 52
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57692/session/40672c207a5e322f8aa46b3a63a18cd0/url {"url": "https://www.hifini.com/sg_sign.htm"}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:57692 "POST /session/40672c207a5e322f8aa46b3a63a18cd0/url HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:newbase.py:16 打开网页：https://www.hifini.com/sg_sign.htm
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57692/session/40672c207a5e322f8aa46b3a63a18cd0/cookie {"cookie": {"name": "bbs_sid", "value": "r6ucpj5beqth1j78fih6dvt6ng"}}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:57692 "POST /session/40672c207a5e322f8aa46b3a63a18cd0/cookie HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57692/session/40672c207a5e322f8aa46b3a63a18cd0/cookie {"cookie": {"name": "bbs_token", "value": "9Ng1idNpuXyhw40A4CSAhTvgD0GipJyt723utaQ_2BqhhIEHjEnpwz_2B4AeF96bl7TAqfIQhXM4NUw01NeSawOHN_2Fl_2FyX5xKlRb"}}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:57692 "POST /session/40672c207a5e322f8aa46b3a63a18cd0/cookie HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:57692/session/40672c207a5e322f8aa46b3a63a18cd0/refresh {}
+DEBUG    urllib3.connectionpool:connectionpool.py:452 http://127.0.0.1:57692 "POST /session/40672c207a5e322f8aa46b3a63a18cd0/refresh HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
