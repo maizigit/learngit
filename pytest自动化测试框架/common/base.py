@@ -53,15 +53,15 @@ class Webbage:
         ele = self.locator(name, value)
         ele.clear()
         ele.send_keys(text)
-        log.info = ('正在获取元素属性值{}{}并输入'.format(name, value))
+        log().info("输入文本：{}".format(text))
 
     # 添加cookie
     def add_cookie(self,cookie):
         self.driver.add_cookie(cookie)
 
     # 获取cookie
-    def get_cookie(self):
-        self.driver.get_cookie()
+    def get_cookies(self):
+        self.driver.get_cookies()
 
 
 

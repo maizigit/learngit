@@ -22,7 +22,7 @@ from conf.config import c
 def log():
     # 创建日志器入口
     logger = logging.getLogger()
-    logger.setLevel(logging.DEBUG)
+    logger.setLevel(logging.INFO)
 
     # 创建handle处理器 配置写入文件和输出控制台
     fh = logging.FileHandler(c.log_file,encoding='utf-8')
