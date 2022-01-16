@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8aee46fc-06a4-486b-8d18-6966b9e88b68" name="Default Changelist" comment="">
+    <list default="true" id="8aee46fc-06a4-486b-8d18-6966b9e88b68" name="Default Changelist" comment="修复 base.py下 get_cookies 参数错误， 以及log().info 参数错误">
+      <change afterPath="$PROJECT_DIR$/common/fordatabase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/syslog.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/syslog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/sys.log" beforeDir="false" afterPath="$PROJECT_DIR$/results/sys.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/test_hifi.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_hifi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +37,7 @@
       <recent name="D:\pythonGUI\pyqt5\py3env\pytest自动化测试框架" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1 (1)">
+  <component name="RunManager" selected="Python.fordatabase">
     <configuration name="1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pytest自动化测试框架" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,7 +59,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="fordatabase" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pytest自动化测试框架" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,7 +71,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/fordatabase.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fordatabase" />
         <item itemvalue="Python.1 (1)" />
         <item itemvalue="Python tests.pytest for test_hifi.TestCase.test_001" />
         <item itemvalue="Python tests.pytest in test_hifi.py" />
         <item itemvalue="Python.syslog" />
-        <item itemvalue="Python.1" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +173,14 @@
       <option name="presentableId" value="Default" />
       <updated>1640679684369</updated>
     </task>
+    <task id="LOCAL-00001" summary="修复 base.py下 get_cookies 参数错误， 以及log().info 参数错误">
+      <created>1642052065388</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642052065388</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +194,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修复 base.py下 get_cookies 参数错误， 以及log().info 参数错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复 base.py下 get_cookies 参数错误， 以及log().info 参数错误" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
